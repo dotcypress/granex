@@ -1,0 +1,19 @@
+[package]
+edition = "2018"
+name = "granex"
+version = "0.1.0"
+description = "Tor v3 Vanity Address Generator"
+license = "MIT/Apache-2.0"
+authors = ["Vitaly Domnikov <oss@vitaly.codes>"]
+readme = "readme.md"
+documentation = "https://github.com/dotcypress/granex"
+homepage = "https://github.com/dotcypress/granex"
+repository = "https://github.com/dotcypress/granex"
+keywords = ["onion", "tor"]
+
+[dependencies]
+clap = "2.32.0"
+rand = "0.5.5"
+rust-crypto = "0.2.36"
+
+
